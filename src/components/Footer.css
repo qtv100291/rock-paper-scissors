@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    margin: 50px 30px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+.item:hover{
+    cursor: pointer;
+}
+.item > img{
+    height: 100%;
+}

@@ -1,0 +1,30 @@
+.battlefield{
+    width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user,.computer {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.item-battle{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-battle > img{
+    height: 150px;
+}
